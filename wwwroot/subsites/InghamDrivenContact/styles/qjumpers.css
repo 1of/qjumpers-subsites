@@ -1,0 +1,128 @@
+.qjumpers .row{
+	display: block;
+}
+/*List*/
+.qjumpers .search-wrap {
+	margin-top: 5px;
+	border: 2px solid rgba(0,0,0,.8);
+	background-color: transparent;
+}
+.qjumpers .btn btn-primary:active {
+	border: none;
+}
+.qjumpers .search-wrap .form-group label{
+	color: #000;
+}
+.qjumpers .search-wrap .btn-toggle .slash, .search-wrap .btn-toggle label{
+	color: #000;
+}
+.search-wrap .filter-btns{
+	color: #000;
+}
+.qjumpers .btn{
+	border: none;
+}
+.qjumpers .time-icon{
+	color: rgba(0,0,0,.6);
+}
+.search-wrap .btn-toggle input[type="radio"]:checked + label:after{
+	background-color: #000;
+}
+.qjumpers .dark-txt{
+	color:  rgba(0,0,0,.6);
+}
+.qjumpers .dashboard-list-item h4 {
+	font-size: 2.3rem;
+	font-weight: bold;
+	text-shadow: 1px 2px 0px rgba(150, 150, 150, 1);
+}
+.qjumpers .dashboard-list-item > div{
+	border-left: 1px solid  rgba(0,0,0,.8);
+	border-right: 1px solid  rgba(0,0,0,.8);
+	padding: 10px;
+	border-radius: 2px;
+}
+.qjumpers .dashboard-list-item > div:nth-child(1){
+	border-top: 1px solid  rgba(0,0,0,.8);
+}
+.qjumpers .dashboard-list-item > div:nth-child(2){
+	border-bottom: 1px solid  rgba(0,0,0,.8);
+	margin-bottom: 15px;
+}
+
+.qjumpers input{
+	border-bottom: 1px solid #000;
+}
+.qjumpers input:focus, :active, :hover, :invalid{
+	outline: none !important;
+}
+.qjumpers input, textarea {
+	outline:none !important;
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.qjumpers button.btn-success{
+	background-color: rgba(0,0,0,.8);
+	background-image: none;
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 2px;
+	border-radius: 2px;
+}
+.qjumpers button.btn-success:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.qjumpers .dashboard-list--inner{
+	padding-left: 25px;
+}
+/*Details*/
+.qjumpers .btn.cta{
+	background:  rgba(0,0,0,.8);
+}
+.qjumpers .job-detail--header h1{
+	font-weight: bold;
+}
+.qjumpers a:hover{
+	text-decoration: none;
+}   
+/*Application*/
+.qjumpers .navbar-default .navbar-nav > li:hover{
+	border-radius: 2px;
+	background-color: #fff;
+}
+.qjumpers .navbar-default .navbar-nav{
+	background-color:  rgba(0,0,0,.9);
+	border-radius: 2px;
+}
+.qjumpers .navbar-default .navbar-nav > li:last-child{
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.qjumpers .navbar-default .navbar-nav > li > a{
+	color: #fff;
+}
+.qjumpers .navbar-default .navbar-nav > li > a:hover{
+	color: #000;
+}
+.qjumpers .rw-i{
+	line-height: 3;
+}
+.qjumpers nav navbar-nav{
+	border-radius: 2px;
+}
+.qjumpers .action-default{
+	border: 1px solid #000;
+}
+.qjumpers .btn + .btn {
+	margin-left: 0;
+}
+.qjumpers .rw-widget > .rw-btn, .rw-widget > .rw-select > .rw-btn {
+	background-image: linear-gradient(to right, #888 0%, #000 100%);
+}
+.qjumpers label.control-label{
+	font-size: 1.5rem;
+}
+.qjumpers form h3{
+	font-size: 26px;
+}
+.qjumpers h2{
+	font-size: 30px;
+}
